@@ -5,8 +5,8 @@ Components.utils.import("resource://gre/modules/XPCOMUtils.jsm");
 
 function AboutNightly() {}
 AboutNightly.prototype = {
-    classDescription: "about:nightly",
-    contractID: "@mozilla.org/network/protocol/about;1?what=nightly",
+    classDescription: "about:nightlytt",
+    contractID: "@mozilla.org/network/protocol/about;1?what=nightlytt",
     classID: Components.ID("{4cec494a-d33a-4ee7-83d6-461925b5d84b}"),
     QueryInterface: XPCOMUtils.generateQI([Ci.nsIAboutModule]),
   

@@ -102,6 +102,7 @@
   <vbox id="appmenuPrimaryPane">
     <menu id="nightly-appmenu" label="Nightly Tester Tools" insertafter="appmenu_webDeveloper">
       <menupopup onpopupshowing="nightly.menuPopup(event,this);">
+        <menuitem id="nightly-about" label="&nightly.about.label;" oncommand="alert('foo');"/>
         <menuitem id="nightly-build-copy" label="&nightly.id.copy.label;" oncommand="nightly.copyTemplate('buildid');"/>
         <menuitem id="nightly-build-insert" label="&nightly.id.insert.label;" oncommand="nightly.insertTemplate('buildid');"/>
         <menuitem id="nightly-list-copy" label="&nightly.extensions.copy.label;" oncommand="nightly.copyExtensions();"/>
